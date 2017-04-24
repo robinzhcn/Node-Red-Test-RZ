@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: stage1.mybluemix.net
+  name: Node-Red-Test-RZ
+  host: Node-Red-Test-RZ
+  disk_quota: 1024M
+  services:
+  - Node-Red-Test-RZ-cloudantNoSQLDB
